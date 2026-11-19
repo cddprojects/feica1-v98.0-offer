@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanks, we've got your details | Role Findly</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#0F3D47" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../site.css" />
+  <style>
+    html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+    body { font-family: var(--body); background: var(--paper); color: var(--ink); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
+    .narrow { width: min(100%, 720px); margin-inline: auto; padding-inline: 22px; }
+    main { flex: 1; display: grid; align-items: center; padding-block: 48px; }
+    .card { background: var(--snow); border: 1px solid var(--line); border-radius: 28px; padding: 48px 40px; box-shadow: 0 30px 70px -34px rgba(15,61,71,.35); }
+    .tick { width: 64px; height: 64px; border-radius: 50%; background: var(--lake); color: #fff; display: grid; place-items: center; margin-bottom: 24px; }
+    .tick svg { width: 30px; height: 30px; }
+    h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2rem, 6vw, 3rem); letter-spacing: -0.04em; line-height: 1.02; margin-bottom: 14px; color: var(--ink); }
+    h1 em { font-style: normal; color: var(--lake-2); }
+    .sub { color: var(--ink-2); font-size: 1.05rem; max-width: 48ch; margin-bottom: 30px; }
+    .next { background: var(--paper); border-radius: 18px; padding: 24px; margin-bottom: 28px; }
+    .next h2 { font-family: var(--body); font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); margin-bottom: 16px; line-height: 1.4; }
+    .step { display: flex; gap: 14px; margin-bottom: 16px; }
+    .step:last-child { margin-bottom: 0; }
+    .dot { width: 28px; height: 28px; border-radius: 50%; background: var(--lake-2); color: #fff; font-size: .82rem; font-weight: 700; display: grid; place-items: center; flex-shrink: 0; margin-top: 1px; }
+    .step strong { display: block; font-size: .97rem; }
+    .step span { font-size: .88rem; color: var(--ink-2); }
+    .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+    .note { margin-top: 22px; font-size: .8rem; color: var(--mute); }
+    @media (max-width: 520px) { .card { padding: 32px 22px; } .btns .btn { width: 100%; } }
+  </style>
+</head>
+<body>
+
+<!-- ═════ HEADER (shared across all pages) ═════ -->
+<div class="strip">
+  <b>For Canadian residents only</b><span class="sep hide-sm">·</span><span class="hide-sm">Work from home · Paid by Interac e-Transfer · No fee to apply</span>
+</div>
+
+<nav class="top">
+  <div class="wrap nav-in">
+    <a href="../" class="logo" aria-label="Role Findly home">Role <i>Findly</i></a>
+    <div class="nav-links">
+      <a href="../#why">Why it helps</a>
+      <a href="../#how">How it works</a>
+      <a href="../#reviews">Reviews</a>
+      <a href="../#faq">FAQ</a>
+    </div>
+    <a href="../#apply" class="btn btn-maple nav-cta">Apply Now</a>
+  </div>
+</nav>
+
+<main>
+  <div class="narrow">
+    <div class="card">
+      <div class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+      <h1>Thanks, we've got your details. <em>Talk soon.</em></h1>
+      <p class="sub">If WhatsApp opened with your details, tap Send so they reach us. A real person from the Role Findly team will then reply within 24 hours to walk you through the work and answer any questions. No pressure either way.</p>
+
+      <div class="next">
+        <h2>What happens next</h2>
+        <div class="step"><div class="dot">1</div><div><strong>We review your details</strong><span>A quick look to make sure we can match you with suitable tasks.</span></div></div>
+        <div class="step"><div class="dot">2</div><div><strong>We reply on WhatsApp</strong><span>Usually the same day, within 24 hours at most. Available in English or French.</span></div></div>
+        <div class="step"><div class="dot">3</div><div><strong>Try a first task, get paid</strong><span>Your first Interac e-Transfer is sent within 3 days of your first approved task. No minimum payout.</span></div></div>
+      </div>
+
+      <div class="btns">
+        <a class="btn btn-maple" href="../">Back to home</a>
+      </div>
+      <p class="note">Your details stay private. We never sell or share your information.</p>
+    </div>
+  </div>
+</main>
+
+<!-- ═════ FOOTER (shared across all pages) ═════ -->
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div>
+        <a class="logo" href="../">Role <i>Findly</i></a>
+        <p>Flexible work from home and remote online work for Canadians. First Interac e-Transfer within 3 days of your first approved task, no minimum payout. No upfront fees.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="../#why">Why it helps</a></li>
+          <li><a href="../#how">How it works</a></li>
+          <li><a href="../#reviews">Reviews</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:contact@rolefindly.com">contact@rolefindly.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <p>© 2026 Role Findly. All rights reserved. Open to Canadian residents only. Income figures are estimates based on active earner data and are not a guarantee. Results vary with effort, availability and task volume. Reviews reflect individual experiences.</p>
+      <a href="../privacy-policy/">Privacy Policy (PIPEDA &amp; CASL)</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

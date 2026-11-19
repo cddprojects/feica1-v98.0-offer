@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work From Home Jobs in Canada | Extra Income, Flexible Online Work | Role Findly</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <meta name="description" content="Work from home with flexible remote jobs and online tasks. Most people earn $500 to $3,900 a month in extra income. First Interac e-Transfer in as little as 3 days, no minimum payout. For Canadian residents." />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="og:title" content="Rent went up. Your pay didn't. Let's fix one of those. | Role Findly" />
+  <meta property="og:description" content="Work from home with flexible, paid online work. Extra income on your schedule. Paid by Interac e-Transfer." />
+  <meta name="theme-color" content="#0F3D47" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="site.css" />
+
+  <style>
+    html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+    body {
+      font-family: var(--body); background: var(--paper); color: var(--ink);
+      line-height: 1.6; font-size: 1rem; -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    button { font-family: inherit; }
+
+    .sec { padding-block: 72px; }
+    @media (min-width: 900px) { .sec { padding-block: 112px; } }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--lake-2); margin-bottom: 18px;
+    }
+    .eyebrow::before { content: ''; width: 22px; height: 2px; background: var(--maple); border-radius: 2px; }
+    .eyebrow.light { color: #9CCBD6; }
+
+    h1, h2, h3, h4 { font-family: var(--display); letter-spacing: -0.025em; line-height: 1.04; color: var(--ink); }
+    .h2 { font-size: clamp(2rem, 4.6vw, 3.4rem); font-weight: 800; margin-bottom: 16px; }
+    .h2 .soft { color: var(--lake-2); }
+    .lede { font-size: 1.06rem; color: var(--ink-2); max-width: 54ch; line-height: 1.7; }
+
+    /* Reveal */
+    .rv { opacity: 0; transform: translateY(18px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+    .rv.in { opacity: 1; transform: none; }
+    .d1 { transition-delay: .08s; } .d2 { transition-delay: .16s; } .d3 { transition-delay: .24s; }
+    @media (prefers-reduced-motion: reduce) {
+      .rv { opacity: 1; transform: none; transition: none; }
+      html { scroll-behavior: auto; }
+      * { animation: none !important; }
+    }
+
+    /* Buttons, header (strip + nav) and footer live in site.css */
+
+    /* HERO */
+    .hero {
+      position: relative; padding-block: 44px 64px; overflow: hidden;
+      background-color: var(--paper);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400' fill='none' stroke='%230F3D47' stroke-opacity='0.07' stroke-width='1.2'%3E%3Cpath d='M-20 120C80 60 160 170 260 110S440 40 620 100'/%3E%3Cpath d='M-20 160C80 100 160 210 260 150S440 80 620 140'/%3E%3Cpath d='M-20 200C80 140 160 250 260 190S440 120 620 180'/%3E%3Cpath d='M-20 280C100 230 180 320 300 270S480 210 620 270'/%3E%3Cpath d='M-20 320C100 270 180 360 300 310S480 250 620 310'/%3E%3C/svg%3E");
+      background-size: 600px 400px;
+    }
+    @media (min-width: 960px) { .hero { padding-block: 72px 96px; } }
+    .hero-grid { display: grid; gap: 40px; }
+    @media (min-width: 960px) { .hero-grid { grid-template-columns: 1.12fr 0.88fr; gap: 64px; align-items: start; } }
+
+    .hero h1 { font-size: clamp(2.7rem, 7.4vw, 5.3rem); font-weight: 800; letter-spacing: -0.04em; line-height: 0.98; margin-bottom: 24px; }
+    .hero h1 .strike { color: var(--mute); text-decoration: line-through; text-decoration-thickness: 3px; text-decoration-color: var(--maple); }
+    .hero h1 .fix { color: var(--lake-2); display: block; }
+    .hero .lede { margin-bottom: 30px; }
+    .hero-checks { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-bottom: 34px; list-style: none; }
+    .hero-checks li { display: flex; align-items: center; gap: 8px; font-size: 0.93rem; font-weight: 600; color: var(--ink); }
+    .hero-checks svg { width: 18px; height: 18px; color: var(--lake-2); flex-shrink: 0; }
+
+    .proof-chip {
+      display: inline-flex; align-items: center; gap: 14px; background: var(--snow);
+      border: 1px solid var(--line); border-radius: 999px; padding: 8px 18px 8px 8px;
+    }
+    .av-stack { display: flex; }
+    .av-stack span {
+      width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--snow);
+      margin-left: -10px; display: grid; place-items: center; color: #fff; font-size: 0.72rem; font-weight: 700;
+    }
+    .av-stack span:first-child { margin-left: 0; }
+    .proof-chip p { font-size: 0.84rem; line-height: 1.3; color: var(--ink-2); }
+    .proof-chip strong { color: var(--ink); display: flex; align-items: center; gap: 5px; }
+    .proof-chip .gstar { color: var(--star); }
+
+    /* Estimator card */
+    .est {
+      background: var(--snow); border-radius: var(--r-lg); border: 1px solid var(--line);
+      box-shadow: 0 30px 70px -28px rgba(15,61,71,.35), 0 2px 0 rgba(15,61,71,.04);
+      padding: 24px; position: relative;
+    }
+    @media (min-width: 560px) { .est { padding: 32px; } }
+    @media (min-width: 960px) { .est { position: sticky; top: 90px; } }
+    .est-tag { font-size: 0.74rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--maple); margin-bottom: 6px; }
+    .est h2 { font-size: 1.55rem; font-weight: 800; margin-bottom: 22px; }
+    .field-lbl { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.88rem; font-weight: 600; margin-bottom: 10px; }
+    .field-lbl output { font-family: var(--display); font-weight: 800; font-size: 1.15rem; color: var(--lake-2); }
+    input[type=range] {
+      -webkit-appearance: none; appearance: none; width: 100%; height: 8px; border-radius: 8px;
+      background: linear-gradient(90deg, var(--lake-2) var(--fill, 40%), var(--paper-2) var(--fill, 40%)); outline-offset: 6px; cursor: pointer;
+    }
+    input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 28px; height: 28px; border-radius: 50%; background: var(--snow); border: 3px solid var(--lake-2); box-shadow: 0 3px 8px rgba(0,0,0,.2); }
+    input[type=range]::-moz-range-thumb { width: 22px; height: 22px; border-radius: 50%; background: var(--snow); border: 3px solid var(--lake-2); }
+    .range-ends { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--mute); margin-top: 6px; }
+    .seg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; background: var(--paper); border-radius: 14px; padding: 5px; margin: 20px 0 22px; border: 0; }
+    .seg legend { font-size: 0.88rem; font-weight: 600; margin-bottom: 10px; float: left; width: 100%; }
+    .seg label { cursor: pointer; text-align: center; }
+    .seg input { position: absolute; opacity: 0; pointer-events: none; }
+    .seg span { display: block; padding: 10px 6px; border-radius: 10px; font-size: 0.82rem; font-weight: 600; color: var(--ink-2); line-height: 1.25; transition: background .2s, color .2s; }
+    .seg span small { display: block; font-weight: 500; color: var(--mute); font-size: 0.72rem; }
+    .seg input:checked + span { background: var(--lake); color: #fff; box-shadow: 0 4px 12px rgba(15,61,71,.3); }
+    .seg input:checked + span small { color: #9CCBD6; }
+    .seg input:focus-visible + span { outline: 3px solid var(--maple); outline-offset: 2px; }
+    .seg-wrap { margin-top: 20px; }
+    .seg-wrap .seg { margin-top: 10px; }
+
+    .result { background: var(--lake); color: #fff; border-radius: var(--r-md); padding: 20px 22px; margin-bottom: 22px; position: relative; overflow: hidden; }
+    .result::after { content: ''; position: absolute; width: 180px; height: 180px; border-radius: 50%; right: -60px; top: -70px; border: 1px solid rgba(255,255,255,.12); box-shadow: 0 0 0 26px rgba(255,255,255,.03); }
+    .result-lbl { font-size: 0.74rem; letter-spacing: .1em; text-transform: uppercase; color: #9CCBD6; font-weight: 600; }
+    .result-num { font-family: var(--display); font-weight: 800; font-size: clamp(2.6rem, 8vw, 3.5rem); letter-spacing: -0.045em; line-height: 1.05; margin: 4px 0; }
+    .result-num small { font-family: var(--body); font-size: 1rem; font-weight: 500; color: #9CCBD6; letter-spacing: 0; margin-left: 4px; }
+    .est-note { font-size: 0.78rem; color: var(--mute); text-align: center; margin-top: 12px; }
+    .result-yr { font-size: 0.86rem; color: #CBE3E9; }
+    .result-covers { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.14); font-size: 0.9rem; color: #fff; line-height: 1.45; position: relative; z-index: 1; }
+    .result-covers b { color: #FFD9A0; font-weight: 600; }
+
+    .form { display: grid; gap: 10px; }
+    .form label.f { display: block; font-size: 0.8rem; font-weight: 600; color: var(--ink-2); margin-bottom: 4px; }
+    .form input[type=text], .form input[type=email], .form input[type=tel] {
+      width: 100%; min-height: 50px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid var(--line);
+      background: var(--paper); font: inherit; font-size: 1rem; color: var(--ink); transition: border-color .2s, background .2s;
+    }
+    .form input::placeholder { color: #9AA3AC; }
+    .form input:focus { outline: none; border-color: var(--lake-2); background: var(--snow); box-shadow: 0 0 0 4px rgba(23,86,106,.12); }
+    .row2 { display: grid; gap: 10px; }
+    @media (min-width: 480px) { .row2 { grid-template-columns: 1fr 1fr; } }
+    .consent { display: flex; gap: 10px; align-items: flex-start; font-size: 0.78rem; color: var(--ink-2); line-height: 1.45; margin: 4px 0 4px; cursor: pointer; }
+    .consent input { width: 20px; height: 20px; margin-top: 1px; accent-color: var(--lake-2); flex-shrink: 0; }
+    .consent a { text-decoration: underline; }
+    .fine { font-size: 0.74rem; color: var(--mute); text-align: center; margin-top: 4px; }
+
+    /* Stats band */
+    .stats { background: var(--lake); color: #fff; }
+    .stats-in { display: grid; grid-template-columns: repeat(2, 1fr); }
+    @media (min-width: 800px) { .stats-in { grid-template-columns: repeat(4, 1fr); } }
+    .stat { padding: 30px 20px; border-right: 1px solid rgba(255,255,255,.1); border-bottom: 1px solid rgba(255,255,255,.1); }
+    .stat:nth-child(2n) { border-right: 0; }
+    @media (min-width: 800px) { .stat { border-bottom: 0; padding: 40px 28px; } .stat:nth-child(2n) { border-right: 1px solid rgba(255,255,255,.1); } .stat:last-child { border-right: 0; } }
+    .stat-n { font-family: var(--display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1; }
+    .stat-n em { font-style: normal; color: #FFB4A8; }
+    .stat-l { font-size: 0.85rem; color: #9CCBD6; margin-top: 6px; }
+    /* BENTO */
+    .why-head { display: grid; gap: 14px; margin-bottom: 44px; }
+    @media (min-width: 900px) { .why-head { grid-template-columns: 1.1fr 0.9fr; align-items: end; gap: 56px; margin-bottom: 56px; } }
+    .why-head .h2 { margin: 0; }
+    .bento { display: grid; gap: 14px; grid-template-columns: 1fr; }
+    @media (min-width: 640px) {
+      .bento { grid-template-columns: repeat(2, 1fr); }
+      .b-a, .b-f { grid-column: 1 / -1; }
+    }
+    @media (min-width: 1000px) {
+      .bento { grid-template-columns: repeat(12, 1fr); }
+      .b-a { grid-column: span 6; grid-row: span 2; }
+      .b-b, .b-c, .b-d, .b-e { grid-column: span 3; }
+      .b-f { grid-column: span 12; }
+    }
+    .tile {
+      background: var(--snow); border: 1px solid var(--line); border-radius: var(--r-lg);
+      padding: 26px; display: flex; flex-direction: column; gap: 10px; position: relative;
+      transition: transform .3s var(--ease), box-shadow .3s;
+    }
+    .tile:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -20px rgba(15,61,71,.3); }
+    .tile .ico { width: 46px; height: 46px; border-radius: 14px; background: var(--sky); color: var(--lake); display: grid; place-items: center; margin-bottom: 8px; }
+    .tile .ico svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .tile h3 { font-size: 1.22rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+    .tile p { font-size: 0.93rem; color: var(--ink-2); line-height: 1.6; }
+    .tile .amt { margin-top: auto; padding-top: 10px; font-size: 0.8rem; font-weight: 700; color: var(--maple); }
+    .tile .amt span { background: var(--maple-lt); padding: 4px 10px; border-radius: 999px; }
+    .b-a { background: var(--lake); border-color: var(--lake); justify-content: flex-end; min-height: 320px; overflow: hidden; }
+    .b-a h3 { color: #fff; font-size: clamp(1.7rem, 3vw, 2.4rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.05; }
+    .b-a p { color: #CBE3E9; font-size: 1rem; max-width: 40ch; }
+    .b-a .ico { background: rgba(255,255,255,.1); color: #fff; }
+    .b-a .amt span { background: rgba(255,255,255,.12); color: #FFD9A0; }
+    .b-a::before { content: '$'; position: absolute; right: -10px; top: -50px; font-family: var(--display); font-weight: 800; font-size: 14rem; line-height: 1; color: rgba(255,255,255,.05); pointer-events: none; }
+    .b-f { flex-direction: column; background: var(--paper-2); border-color: var(--paper-2); }
+    @media (min-width: 760px) { .b-f { flex-direction: row; align-items: center; gap: 28px; } .b-f .ico { margin: 0; flex-shrink: 0; } .b-f .amt { margin: 0 0 0 auto; padding: 0; flex-shrink: 0; } }
+
+    /* TIMELINE */
+    .how { background: var(--snow); border-block: 1px solid var(--line); }
+    .how-head { max-width: 640px; margin-bottom: 52px; }
+    .tl { list-style: none; display: grid; gap: 0; position: relative; }
+    @media (min-width: 900px) { .tl { grid-template-columns: repeat(4, 1fr); gap: 24px; } .tl::before { content: ''; position: absolute; left: 0; right: 0; top: 23px; height: 2px; background: repeating-linear-gradient(90deg, var(--line) 0 8px, transparent 8px 14px); } }
+    .tl li { position: relative; padding: 0 0 32px 64px; }
+    @media (min-width: 900px) { .tl li { padding: 62px 0 0 0; } }
+    .tl-dot {
+      position: absolute; left: 0; top: 0; width: 48px; height: 48px; border-radius: 50%; background: var(--paper);
+      border: 2px solid var(--lake-2); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 1rem; color: var(--lake); z-index: 1;
+    }
+    .tl li:last-child .tl-dot { background: var(--maple); border-color: var(--maple); color: #fff; }
+    @media (max-width: 899px) { .tl li:not(:last-child)::before { content: ''; position: absolute; left: 23px; top: 48px; bottom: 0; width: 2px; background: var(--line); } }
+    .tl-day { font-size: 0.74rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--maple); margin-bottom: 4px; }
+    .tl h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 6px; }
+    .tl p { font-size: 0.93rem; color: var(--ink-2); }
+
+    /* REVIEWS */
+    .reviews { background: var(--paper); }
+    .g-head { display: grid; gap: 28px; margin-bottom: 40px; }
+    @media (min-width: 900px) { .g-head { grid-template-columns: 1fr auto; align-items: end; } }
+    .g-score { display: flex; align-items: center; gap: 18px; background: var(--snow); border: 1px solid var(--line); border-radius: var(--r-md); padding: 16px 22px; width: fit-content; }
+    .g-score .big { font-family: var(--display); font-weight: 800; font-size: 3.2rem; letter-spacing: -0.05em; line-height: 1; }
+    .g-score .stars { color: var(--star); font-size: 1.1rem; letter-spacing: 2px; }
+    .g-score small { display: block; font-size: 0.78rem; color: var(--mute); margin-top: 2px; }
+    .g-score .gmark { width: 28px; height: 28px; margin-left: 6px; }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; }
+    .chip { border: 1.5px solid var(--line); background: var(--snow); border-radius: 999px; padding: 8px 16px; font-size: 0.86rem; font-weight: 600; color: var(--ink-2); cursor: pointer; min-height: 40px; }
+    .chip[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .g-grid { column-count: 1; column-gap: 16px; }
+    @media (min-width: 700px)  { .g-grid { column-count: 2; } }
+    @media (min-width: 1040px) { .g-grid { column-count: 3; } }
+    .gcard { break-inside: avoid; background: var(--snow); border: 1px solid var(--line); border-radius: 18px; padding: 18px 18px 14px; margin-bottom: 16px; }
+    .gcard[hidden], .gcard.more:not(.show) { display: none; }
+    .g-top { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+    .g-av { width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 0.9rem; flex-shrink: 0; }
+    .g-who { flex: 1; min-width: 0; }
+    .g-name { font-weight: 700; font-size: 0.95rem; line-height: 1.25; }
+    .g-sub { font-size: 0.76rem; color: var(--mute); line-height: 1.35; }
+    .g-sub .lg { color: #E8710A; font-weight: 600; }
+    .g-logo { width: 18px; height: 18px; flex-shrink: 0; align-self: flex-start; margin-top: 2px; }
+    .g-rate { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .g-stars { color: var(--star); font-size: 0.95rem; letter-spacing: 1.5px; line-height: 1; }
+    .g-stars .o { color: #DADCE0; }
+    .g-when { font-size: 0.78rem; color: var(--mute); }
+    .g-text { font-size: 0.93rem; line-height: 1.62; color: #212B33; }
+    .g-owner { margin-top: 12px; background: var(--paper); border-radius: 12px; padding: 12px 14px; font-size: 0.84rem; color: var(--ink-2); line-height: 1.55; }
+    .g-owner b { display: block; color: var(--ink); font-size: 0.82rem; margin-bottom: 2px; }
+    .g-owner time { font-weight: 400; color: var(--mute); margin-left: 4px; }
+    .g-foot { display: flex; align-items: center; gap: 6px; margin-top: 12px; font-size: 0.78rem; color: var(--mute); }
+    .g-foot svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .more-wrap { text-align: center; margin-top: 18px; }
+    .more-wrap .btn { background: var(--snow); border: 1.5px solid var(--ink); color: var(--ink); }
+    .more-wrap .btn:hover { background: var(--ink); color: #fff; }
+    .g-note { text-align: center; font-size: 0.8rem; color: var(--mute); margin-top: 14px; }
+
+    /* WhatsApp mockup (body only) */
+    .wa { margin-top: 14px; border-radius: 14px; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+    .wa-body { padding: 10px 8px 8px; display: flex; flex-direction: column; gap: 2px; background-color: #EFEAE2; }
+    .wa-date { align-self: center; font-size: 11px; font-weight: 500; color: #667781; background: rgba(255,255,255,.75); padding: 3px 11px; border-radius: 8px; margin: 4px 0 6px; box-shadow: 0 1px 1px rgba(0,0,0,.05); }
+    .wa-r, .wa-s { max-width: 84%; padding: 6px 9px 4px; font-size: 13.2px; line-height: 1.36; color: #111; box-shadow: 0 1px .5px rgba(0,0,0,.1); word-break: break-word; }
+    .wa-r { background: #fff; align-self: flex-start; border-radius: 4px 11px 11px 11px; margin-left: 3px; }
+    .wa-s { background: #D9FDD3; align-self: flex-end; border-radius: 11px 4px 11px 11px; margin-right: 3px; }
+    .wa-r.n, .wa-s.n { border-radius: 11px; }
+    .wa-m { float: right; display: inline-flex; align-items: flex-end; gap: 3px; margin: 5px 0 0 9px; position: relative; top: 2px; }
+    .wa-t { font-size: 10.5px; color: #667781; line-height: 1; }
+    .tk { width: 15px; height: 10px; color: #8D9599; }
+    .tk.b { color: #53BDEB; }
+    /* Wallpapers */
+    .wa.doodle .wa-body { background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c9c0b4' fill-opacity='0.2'%3E%3Cpath d='M20 20c4 0 7 3 7 7s-3 7-7 7-7-3-7-7 3-7 7-7zm40 0c4 0 7 3 7 7s-3 7-7 7-7-3-7-7 3-7 7-7zM8 48c2 0 4 2 4 4s-2 4-4 4-4-2-4-4 2-4 4-4zm32-8c3 0 5 2 5 5s-2 5-5 5-5-2-5-5 2-5 5-5zm28 16c2.5 0 4.5 2 4.5 4.5S70.5 65 68 65s-4.5-2-4.5-4.5S65.5 56 68 56z'/%3E%3C/g%3E%3C/svg%3E"); }
+    .wa.teal .wa-body { background-color: #C5E8DE; background-image: radial-gradient(rgba(15,61,71,.09) 1.2px, transparent 1.2px); background-size: 14px 14px; }
+    .wa.peach .wa-body { background-color: #F3D9CB; background-image: repeating-linear-gradient(135deg, rgba(255,255,255,.2) 0 8px, transparent 8px 16px); }
+    .wa.sand .wa-body { background-color: #E8E2D4; }
+    .wa.dark .wa-body { background-color: #0B141A; background-image: radial-gradient(rgba(255,255,255,.035) 1.4px, transparent 1.4px), radial-gradient(rgba(255,255,255,.025) 1px, transparent 1px); background-size: 22px 22px, 13px 13px; background-position: 0 0, 7px 9px; }
+    .wa.dark .wa-r { background: #1F2C34; box-shadow: none; color: #E9EDEF; }
+    .wa.dark .wa-s { background: #005C4B; box-shadow: none; color: #E9EDEF; }
+    .wa.dark .wa-t { color: #8696A0; }
+    .wa.dark .wa-date { background: #182229; color: #8696A0; box-shadow: none; }
+    .wa.dark .tk { color: #667781; } .wa.dark .tk.b { color: #53BDEB; }
+    .wa.lake .wa-body { background: linear-gradient(160deg, #2A4B47, #1A3532); }
+    .wa.lake .wa-date { background: rgba(0,0,0,.28); color: #D5E6E2; box-shadow: none; }
+
+    /* FIT */
+    .fit-grid { display: grid; gap: 16px; margin-top: 40px; }
+    @media (min-width: 800px) { .fit-grid { grid-template-columns: 1fr 1fr; gap: 24px; } }
+    .fit { border-radius: var(--r-lg); padding: 30px; border: 1px solid var(--line); background: var(--snow); }
+    .fit.no { background: transparent; border-style: dashed; border-color: #C9C1AF; }
+    .fit h3 { font-size: 1.35rem; font-weight: 800; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+    .fit h3 span { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-size: 0.95rem; color: #fff; background: var(--lake-2); }
+    .fit.no h3 span { background: var(--maple); }
+    .fit ul { list-style: none; display: grid; gap: 12px; }
+    .fit li { font-size: 0.97rem; color: var(--ink-2); padding-left: 24px; position: relative; line-height: 1.55; }
+    .fit li::before { content: ''; position: absolute; left: 0; top: 9px; width: 10px; height: 2px; background: var(--lake-2); border-radius: 2px; }
+    .fit.no li::before { background: var(--maple); }
+
+    /* ABOUT */
+    .about { background: var(--lake); color: #fff; position: relative; overflow: hidden; }
+    .about::after { content: ''; position: absolute; width: 640px; height: 640px; border-radius: 50%; right: -240px; bottom: -320px; border: 1px solid rgba(255,255,255,.1); box-shadow: 0 0 0 60px rgba(255,255,255,.025), 0 0 0 120px rgba(255,255,255,.02); pointer-events: none; }
+    .about-grid { display: grid; gap: 40px; position: relative; z-index: 1; }
+    @media (min-width: 900px) { .about-grid { grid-template-columns: 1.2fr 0.8fr; gap: 80px; align-items: center; } }
+    .about h2 { color: #fff; font-size: clamp(2rem, 4.6vw, 3.4rem); font-weight: 800; margin-bottom: 20px; }
+    .about p { color: #CBE3E9; font-size: 1.05rem; line-height: 1.75; max-width: 52ch; margin-bottom: 16px; }
+    .vm { display: grid; gap: 14px; }
+    .vm div { border: 1px solid rgba(255,255,255,.16); border-radius: var(--r-md); padding: 20px 22px; background: rgba(255,255,255,.04); }
+    .vm b { display: block; font-size: 0.72rem; letter-spacing: .12em; text-transform: uppercase; color: #FFB4A8; margin-bottom: 6px; }
+    .vm span { font-size: 1rem; color: #fff; line-height: 1.5; }
+
+    /* FAQ */
+    .faq-grid { display: grid; gap: 36px; }
+    @media (min-width: 900px) { .faq-grid { grid-template-columns: 0.8fr 1.2fr; gap: 80px; } .faq-side { position: sticky; top: 100px; align-self: start; } }
+    .faq-side .lede { margin-bottom: 22px; }
+    details { border-bottom: 1px solid var(--line); }
+    details:first-child { border-top: 1px solid var(--line); }
+    summary { list-style: none; cursor: pointer; padding: 22px 0; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-family: var(--display); font-weight: 700; font-size: 1.12rem; letter-spacing: -0.015em; line-height: 1.3; min-height: 44px; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; font-family: var(--body); font-weight: 400; font-size: 1.6rem; color: var(--maple); transition: transform .25s var(--ease); flex-shrink: 0; }
+    details[open] summary::after { transform: rotate(45deg); }
+    .ans { padding: 0 0 22px; font-size: 0.97rem; color: var(--ink-2); line-height: 1.75; max-width: 62ch; }
+    .ans a { color: var(--lake-2); text-decoration: underline; }
+
+    /* CTA */
+    .cta { background: var(--paper-2); border-top: 1px solid var(--line); }
+    .cta-box { background: var(--ink); color: #fff; border-radius: 32px; padding: 36px 24px; display: grid; gap: 36px; position: relative; overflow: hidden; }
+    @media (min-width: 700px) { .cta-box { padding: 56px 48px; } }
+    @media (min-width: 960px) { .cta-box { grid-template-columns: 1.1fr 0.9fr; gap: 64px; align-items: center; padding: 72px 64px; } }
+    .cta-box::before { content: ''; position: absolute; width: 520px; height: 520px; border-radius: 50%; left: -200px; top: -260px; background: radial-gradient(circle, rgba(214,50,31,.35), transparent 65%); pointer-events: none; }
+    .cta-box h2 { color: #fff; font-size: clamp(2.1rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.04em; margin-bottom: 18px; position: relative; }
+    .cta-box h2 em { font-style: normal; color: #FFB4A8; }
+    .cta-box > div > p { color: #B6C2CC; max-width: 44ch; position: relative; }
+    .cta-form { background: var(--snow); border-radius: var(--r-lg); padding: 26px; color: var(--ink); position: relative; }
+    @media (min-width: 560px) { .cta-form { padding: 32px; } }
+    .cta-form h3 { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .cta-form > p { font-size: 0.86rem; color: var(--mute); margin-bottom: 18px; }
+
+    .wa-float { position: fixed; right: 22px; bottom: 24px; z-index: 250; width: 56px; height: 56px; border-radius: 50%; background: #25D366; color: #fff; display: none; place-items: center; box-shadow: 0 8px 24px rgba(37,211,102,.35); transition: transform .2s; }
+    .wa-float:hover { transform: translateY(-3px); }
+    .wa-float svg { width: 28px; height: 28px; }
+    @media (min-width: 900px) { .wa-float { display: grid; } }
+  </style>
+</head>
+<body>
+
+<!-- Icon sprites -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="tk" viewBox="0 0 16 11">
+    <path d="M0.9 6.2l3.1 3.15L11.4 1.4" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5.15 6.2l3.1 3.15L15.1 1.55" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="google" viewBox="0 0 24 24">
+    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+    <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+    <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+    <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+  </symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<div class="strip">
+  <b>For Canadian residents only</b><span class="sep hide-sm">·</span><span class="hide-sm">Work from home · Paid by Interac e-Transfer · No fee to apply</span>
+</div>
+
+<nav class="top">
+  <div class="wrap nav-in">
+    <a href="./" class="logo" aria-label="Role Findly home">Role <i>Findly</i></a>
+    <div class="nav-links">
+      <a href="#why">Why it helps</a>
+      <a href="#how">How it works</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="#apply" class="btn btn-maple nav-cta">Apply Now</a>
+  </div>
+</nav>
+
+<!-- ═════ HERO: estimator is the hook ═════ -->
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="rv">
+      <div class="eyebrow">Work from home · Extra income · Flexible online work</div>
+      <h1>
+        <span class="strike">Rent went up.</span>
+        Your pay didn't.
+        <span class="fix">Let's fix one of those.</span>
+      </h1>
+      <p class="lede">
+        Role Findly connects Canadians with flexible remote jobs and online tasks you can do from home, on your own time. Evenings, lunch breaks, a quiet Sunday. Most people earn <strong>$500 to $3,900 a month in extra income</strong>, with a first Interac e-Transfer in as little as 3 days.
+      </p>
+      <ul class="hero-checks">
+        <li><svg><use href="#check"/></svg>100% remote · flexible hours</li>
+        <li><svg><use href="#check"/></svg>First payout within 3 days</li>
+        <li><svg><use href="#check"/></svg>No minimum payout</li>
+      </ul>
+      <div class="proof-chip">
+        <div class="av-stack" aria-hidden="true">
+          <span style="background:#0F766E">JM</span><span style="background:#B45309">DK</span><span style="background:#6D28D9">MT</span><span style="background:#BE185D">KS</span>
+        </div>
+        <p>
+          <strong><span class="gstar">★★★★★</span> 4.8 on Google</strong>
+          Trusted by 6,200+ Canadians
+        </p>
+      </div>
+    </div>
+
+    <!-- Estimator -->
+    <aside class="est rv" id="estimator" aria-labelledby="estTitle">
+      <div class="est-tag">2-minute estimate</div>
+      <h2 id="estTitle">How much extra income could a few hours of online work add?</h2>
+
+      <div class="field-lbl"><label for="hrs">Hours per week</label><output id="hrsOut" for="hrs">15 hrs</output></div>
+      <input type="range" id="hrs" min="5" max="25" step="1" value="15" aria-describedby="hrsHelp" />
+      <div class="range-ends" id="hrsHelp"><span>5 hrs · a few evenings</span><span>25 hrs · near part-time</span></div>
+
+      <fieldset class="seg-wrap" style="border:0">
+        <legend class="field-lbl" style="margin:0">Your experience with online tasks</legend>
+        <div class="seg" role="radiogroup">
+          <label><input type="radio" name="lvl" value="26" /><span>New<small>~$26/hr</small></span></label>
+          <label><input type="radio" name="lvl" value="30" checked /><span>Steady<small>~$30/hr</small></span></label>
+          <label><input type="radio" name="lvl" value="36" /><span>Seasoned<small>~$36/hr</small></span></label>
+        </div>
+      </fieldset>
+
+      <div class="result" aria-live="polite">
+        <div class="result-lbl">Estimated extra income</div>
+        <div class="result-num">$<span id="mo">1,950</span><small>/ month</small></div>
+        <div class="result-yr">Before tax, based on your hours and experience</div>
+        <div class="result-covers" id="covers"></div>
+      </div>
+
+      <a href="#apply" class="btn btn-maple btn-block">Apply Now</a>
+      <p class="est-note">Estimates only; results vary.</p>
+    </aside>
+  </div>
+</header>
+
+<!-- Stats -->
+<section class="stats" aria-label="Role Findly in numbers">
+  <div class="wrap stats-in">
+    <div class="stat"><div class="stat-n"><span class="count" data-to="6200">0</span><em>+</em></div><div class="stat-l">Canadians earning with us</div></div>
+    <div class="stat"><div class="stat-n">$<span class="count" data-to="1.8" data-dec="1">0</span><em>M</em></div><div class="stat-l">Paid out this year</div></div>
+    <div class="stat"><div class="stat-n"><span class="count" data-to="4.8" data-dec="1">0</span><em>★</em></div><div class="stat-l">Average Google rating</div></div>
+    <div class="stat"><div class="stat-n"><span class="count" data-to="3">0</span> <em>days</em></div><div class="stat-l">To your first e-Transfer, as little as</div></div>
+  </div>
+</section>
+
+<!-- ═════ WHY: bento ═════ -->
+<section class="sec" id="why">
+  <div class="wrap">
+    <div class="why-head rv">
+      <div>
+        <div class="eyebrow">Where the extra income goes</div>
+        <h2 class="h2">It's not about luxury. <span class="soft">It's about breathing room.</span></h2>
+      </div>
+      <p class="lede">Groceries, lease renewals and January heating bills don't wait for a raise. A few extra hours a week gives you somewhere to put the pressure.</p>
+    </div>
+
+    <div class="bento">
+      <article class="tile b-a rv">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></div>
+        <h3>The rent bump you saw coming and still didn't budget for.</h3>
+        <p>Lease renewal lands with a new number on it. Extra income absorbs the difference, so it doesn't come out of savings or the credit card.</p>
+        <div class="amt"><span>Often covers about $150–$300 / month</span></div>
+      </article>
+
+      <article class="tile b-b rv d1">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2 3h3l2.5 12h11l2-8H6"/></svg></div>
+        <h3>The weekly grocery shop</h3>
+        <p>It's not the same total it was two years ago. Cover it without opening the banking app first.</p>
+        <div class="amt"><span>≈ $350 / month</span></div>
+      </article>
+
+      <article class="tile b-c rv d2">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M5 3l7 15h5"/><ellipse cx="19" cy="19.5" rx="2.5" ry="1.2"/></svg></div>
+        <h3>Hockey, skating, swim</h3>
+        <p>Registration, gear, tournament weekends. Say yes without doing the math at the arena.</p>
+        <div class="amt"><span>≈ $600 / season</span></div>
+      </article>
+
+      <article class="tile b-d rv d1">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6z"/><path d="M12 14c0-3 2-5 6-5 0 3-2 5-6 5z"/></svg></div>
+        <h3>RESP or TFSA top-up</h3>
+        <p>Finally start the savings you keep meaning to start. Small and steady counts.</p>
+        <div class="amt"><span>≈ $150 / month</span></div>
+      </article>
+
+      <article class="tile b-e rv d2">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2v20M3.3 7l17.4 10M20.7 7L3.3 17"/></svg></div>
+        <h3>Winter, the full bill</h3>
+        <p>Heating in January and winter tires in November. Nobody budgets for both.</p>
+        <div class="amt"><span>≈ $250 / month</span></div>
+      </article>
+
+      <article class="tile b-f rv">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M21 3L3 10l7 3 3 7z"/></svg></div>
+        <div>
+          <h3>A flight home. To family in the Maritimes, the Prairies, or out west.</h3>
+          <p>Book it when you see the fare, not after it doubles. Being there for the birthday, the wedding or the long weekend is worth more than it costs.</p>
+        </div>
+        <div class="amt"><span>≈ $900 return, booked early</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═════ HOW ═════ -->
+<section class="sec how" id="how">
+  <div class="wrap">
+    <div class="how-head rv">
+      <div class="eyebrow">Your first week</div>
+      <h2 class="h2">From applying to money in your account.</h2>
+      <p class="lede">Quick, simple setup. No interview panel, no résumé: just a short chat, a first task, and a payout you can see.</p>
+    </div>
+
+    <ol class="tl">
+      <li class="rv"><div class="tl-dot">1</div><div class="tl-day">Day 0 · 2 minutes</div><h3>Send your details</h3><p>Name, email and WhatsApp number using the form on this page. That's it.</p></li>
+      <li class="rv d1"><div class="tl-dot">2</div><div class="tl-day">Within 24 hours</div><h3>We say hello</h3><p>A real person replies to you on WhatsApp to explain the work and answer your questions.</p></li>
+      <li class="rv d2"><div class="tl-dot">3</div><div class="tl-day">Days 1–2</div><h3>Try your first task</h3><p>Pick something short that suits you. Most take 10–20 minutes, from your phone or laptop.</p></li>
+      <li class="rv d3"><div class="tl-dot">4</div><div class="tl-day">Within 3 days</div><h3>Your first e-Transfer lands</h3><p>Your first payout is sent within 3 days of your first approved task. After that, every Friday. No minimum payout, no holding period.</p></li>
+    </ol>
+
+  </div>
+</section>
+
+<!-- ═════ REVIEWS ═════ -->
+<section class="sec reviews" id="reviews">
+  <div class="wrap">
+    <div class="g-head rv">
+      <div>
+        <div class="eyebrow">Google reviews</div>
+<h2 class="h2">What Canadians say about working from home with us.</h2>
+        <p class="lede">The good, the "could be better", and the "not for everyone". We'd rather you read it all before you apply.</p>
+      </div>
+      <div class="g-score">
+        <div class="big">4.8</div>
+        <div><div class="stars" aria-label="4.8 out of 5 stars">★★★★★</div><small>312 Google reviews</small></div>
+        <svg class="gmark"><use href="#google"/></svg>
+      </div>
+    </div>
+
+    <div class="filters rv" role="group" aria-label="Filter reviews">
+      <button type="button" class="chip" data-f="all" aria-pressed="true">All reviews</button>
+      <button type="button" class="chip" data-f="5" aria-pressed="false">5 stars</button>
+      <button type="button" class="chip" data-f="4" aria-pressed="false">4 stars</button>
+      <button type="button" class="chip" data-f="low" aria-pressed="false">3 stars and under</button>
+    </div>
+
+    <div class="g-grid" id="gGrid">
+
+      <!-- 1 · Jessica · 5★ · screenshot -->
+      <article class="gcard" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#0F766E">JM</div><div class="g-who"><div class="g-name">Jessica M.</div><div class="g-sub">4 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">2 weeks ago</span></div>
+        <p class="g-text">Okay, I'll admit I rolled my eyes at first 🙈 But my first e-Transfer showed up 3 days after my first task ($185!) and two weeks in I'm at $860, all done after the kids are in bed. Wish I'd found this sooner!</p>
+        <div class="wa doodle"><div class="wa-body">
+          <div class="wa-s"><span>hey! just got an e-transfer notification 😮</span><span class="wa-m"><span class="wa-t">8:42 PM</span><svg class="tk"><use href="#tk"/></svg></span></div>
+          <div class="wa-s n"><span>$185 already?? that's only 3 evenings after the kids went down</span><span class="wa-m"><span class="wa-t">8:42 PM</span><svg class="tk"><use href="#tk"/></svg></span></div>
+          <div class="wa-r"><span>Nice one Jessica! 🎉 That's your first approved task. Next one lands Friday, and there's no minimum</span><span class="wa-m"><span class="wa-t">8:47 PM</span></span></div>
+          <div class="wa-s"><span>amazing. gonna do a few more this weekend, thanks so much!</span><span class="wa-m"><span class="wa-t">8:49 PM</span><svg class="tk"><use href="#tk"/></svg></span></div>
+        </div></div>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 6</div>
+      </article>
+
+      <!-- 2 · Dave · 5★ · short -->
+      <article class="gcard" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#374151">DK</div><div class="g-who"><div class="g-name">Dave K.</div><div class="g-sub"><span class="lg">Local Guide</span> · 11 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">a month ago</span></div>
+        <p class="g-text">Paid in 3 days. No games. Good.</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 2</div>
+      </article>
+
+      <!-- 3 · Mélanie · 4★ · bilingual + screenshot -->
+      <article class="gcard" data-s="4">
+        <div class="g-top"><div class="g-av" style="background:#B45309">MT</div><div class="g-who"><div class="g-name">Mélanie T.</div><div class="g-sub">2 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★<span class="o">★</span></span><span class="g-when">3 weeks ago</span></div>
+        <p class="g-text">Pas mal du tout! Inscription en deux minutes, and after a few tasks c'est vraiment simple. They answered me in French too, ce que j'ai bien apprécié. Four stars, not five, because the tasks slowed down one week.</p>
+        <div class="wa teal"><div class="wa-body">
+          <div class="wa-r"><span>Bonjour Mélanie! Your first payout went out this morning 👍</span><span class="wa-m"><span class="wa-t">10:05 AM</span></span></div>
+          <div class="wa-s"><span>Salut! Reçu, merci! Interac a fait son travail 😄</span><span class="wa-m"><span class="wa-t">10:21 AM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+          <div class="wa-s n"><span>Question: can I do tasks on my lunch at the office?</span><span class="wa-m"><span class="wa-t">10:21 AM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+          <div class="wa-r"><span>Absolutely, most are 10–15 min. Just check your employer's policy on side work first</span><span class="wa-m"><span class="wa-t">10:26 AM</span></span></div>
+          <div class="wa-s"><span>Parfait, je vais vérifier mon contrat. Merci!</span><span class="wa-m"><span class="wa-t">10:28 AM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+        </div></div>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 4</div>
+      </article>
+
+      <!-- 4 · Jordan · 3★ · owner response + screenshot -->
+      <article class="gcard" data-s="3">
+        <div class="g-top"><div class="g-av" style="background:#4F46E5">JB</div><div class="g-who"><div class="g-name">Jordan B.</div><div class="g-sub">7 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★<span class="o">★★</span></span><span class="g-when">a month ago</span></div>
+        <p class="g-text"><b>Pros:</b> clear tasks, paid on time, no minimum payout.<br><b>Cons:</b> Sunday support took almost a full day to reply.<br>Not a scam. Just needs faster weekend coverage.</p>
+        <div class="wa peach"><div class="wa-body">
+          <div class="wa-date">Sunday</div>
+          <div class="wa-s"><span>hello? messaged yesterday morning, still nothing</span><span class="wa-m"><span class="wa-t">11:02 AM</span><svg class="tk"><use href="#tk"/></svg></span></div>
+          <div class="wa-r"><span>Hi Jordan, really sorry about the wait. Weekend queue backed up on us. I'm on it now</span><span class="wa-m"><span class="wa-t">11:38 AM</span></span></div>
+          <div class="wa-s"><span>ok. appreciate it</span><span class="wa-m"><span class="wa-t">11:40 AM</span><svg class="tk"><use href="#tk"/></svg></span></div>
+        </div></div>
+        <div class="g-owner"><b>Response from the owner <time>3 weeks ago</time></b>Thanks for the honest feedback, Jordan, and sorry again for the wait. We've added weekend support hours since your message. Reach out any time.</div>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 9</div>
+      </article>
+
+      <!-- 5 · Kyle · 5★ · long + screenshot -->
+      <article class="gcard" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#BE185D">KS</div><div class="g-who"><div class="g-name">Kyle S.</div><div class="g-sub"><span class="lg">Local Guide</span> · 23 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">4 months ago</span></div>
+        <p class="g-text">My warehouse job barely covers rent and the bus pass these days. A coworker told me about this. I started with 6 hours a week, mostly weekends, and made around $650 the first month. Now I do about 12 hours and it is closer to $1,350. It does not replace my job and it is not supposed to. But this summer I took the whole family camping without touching my savings. That meant a lot to me.</p>
+        <div class="wa dark"><div class="wa-body">
+          <div class="wa-s"><span>Hi, I'm looking for something flexible. What tasks do you have?</span><span class="wa-m"><span class="wa-t">6:14 PM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+          <div class="wa-r"><span>Hi Kyle! Product testing, quick content tasks and surveys. You choose what suits you, no minimum</span><span class="wa-m"><span class="wa-t">6:20 PM</span></span></div>
+          <div class="wa-s"><span>Can I do it from home? I work rotating shifts</span><span class="wa-m"><span class="wa-t">6:22 PM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+          <div class="wa-r"><span>Yes, it's all online, so you can do it from home on your own schedule</span><span class="wa-m"><span class="wa-t">6:24 PM</span></span></div>
+          <div class="wa-s"><span>Perfect. I'll start this weekend 🙏</span><span class="wa-m"><span class="wa-t">6:25 PM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+        </div></div>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 21</div>
+      </article>
+
+      <!-- 6 · Tyler · 5★ · scepticism + screenshot -->
+      <article class="gcard" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#1E40AF">TR</div><div class="g-who"><div class="g-name">Tyler R.</div><div class="g-sub">3 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">2 months ago</span></div>
+        <p class="g-text">Fully expected to get scammed. Waited for the catch… still waiting, honestly. First e-Transfer came 3 days after my first task and week one paid for our hockey tickets. Rough life.</p>
+        <div class="wa dark"><div class="wa-body">
+          <div class="wa-s"><span>not gonna lie, my buddy says these side gig things are all scams</span><span class="wa-m"><span class="wa-t">7:58 AM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+          <div class="wa-r"><span>Totally fair to ask. There's no fee to apply and nothing to pay to get started. We never ask for money upfront</span><span class="wa-m"><span class="wa-t">8:06 AM</span></span></div>
+          <div class="wa-s"><span>ok good to know. what's the catch?</span><span class="wa-m"><span class="wa-t">8:09 AM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+          <div class="wa-r"><span>No catch. You do the task, we pay you. If anyone asks for a deposit, that isn't us</span><span class="wa-m"><span class="wa-t">8:11 AM</span></span></div>
+          <div class="wa-date">Thursday</div>
+          <div class="wa-s"><span>eating my words. e-transfer just came in, 3 days after my first task. sorry about that 😂</span><span class="wa-m"><span class="wa-t">4:37 PM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+        </div></div>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 14</div>
+      </article>
+
+      <!-- 7 · Chloe · 5★ · short emoji -->
+      <article class="gcard" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#0E7490">CW</div><div class="g-who"><div class="g-name">Chloe W.</div><div class="g-sub">1 review</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">5 days ago</span></div>
+        <p class="g-text">Covers hockey registration for both boys 🏒 thank you!!</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful</div>
+      </article>
+
+      <!-- 8 · Gerald · 4★ · formal -->
+      <article class="gcard" data-s="4">
+        <div class="g-top"><div class="g-av" style="background:#44403C">GP</div><div class="g-who"><div class="g-name">Gerald P.</div><div class="g-sub"><span class="lg">Local Guide</span> · 31 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★<span class="o">★</span></span><span class="g-when">6 months ago</span></div>
+        <p class="g-text">I am a retired teacher and approached this with caution. Over the winter I completed a few hours of tasks each week to supplement my pension. Payments arrived promptly, with no minimum, and the staff were courteous throughout. It is not a fortune, and they do not pretend otherwise, which I respect. I would recommend it to anyone seeking a modest top-up rather than a second career.</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 8</div>
+      </article>
+
+      <!-- 9 · Rachel · 5★ · night shift -->
+      <article class="gcard" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#166534">RH</div><div class="g-who"><div class="g-name">Rachel H.</div><div class="g-sub">2 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">4 months ago</span></div>
+        <p class="g-text">PSW, night shifts. Do a few tasks when I can't sleep. Pays for my mom's prescriptions. Nobody at work knows.</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 12</div>
+      </article>
+
+      <!-- 10 · Liam · 2★ · owner response -->
+      <article class="gcard" data-s="2">
+        <div class="g-top"><div class="g-av" style="background:#9A3412">LO</div><div class="g-who"><div class="g-name">Liam O.</div><div class="g-sub">5 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★<span class="o">★★★</span></span><span class="g-when">2 months ago</span></div>
+        <p class="g-text">Two stars. Tasks dry up for a week, then five land at once on a Tuesday and you're scrambling. Can't budget around that. Fine as a top-up, not for bills.</p>
+        <div class="g-owner"><b>Response from the owner <time>2 months ago</time></b>Thanks Liam. You're right that task volume varies, and we should be clearer about that up front. We'd always suggest treating it as extra income rather than something to budget around.</div>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 17</div>
+      </article>
+
+      <!-- 11 · Sophie · 5★ · FR short -->
+      <article class="gcard more" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#7C3AED">SL</div><div class="g-who"><div class="g-name">Sophie L.</div><div class="g-sub">1 review</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">3 days ago</span></div>
+        <p class="g-text">Parfait pour mes soirées après le travail. Le virement Interac arrive vite 👌</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful</div>
+      </article>
+
+      <!-- 12 · Brandon · 4★ · realistic expectations -->
+      <article class="gcard more" data-s="4">
+        <div class="g-top"><div class="g-av" style="background:#0F766E">BN</div><div class="g-who"><div class="g-name">Brandon N.</div><div class="g-sub">6 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★<span class="o">★</span></span><span class="g-when">5 months ago</span></div>
+        <p class="g-text">Ran the numbers. 10 hrs a week for 4 weeks, finished the month at $1,240. The top-end numbers are doable, but you'd need closer to 25 hrs a week at the highest rate. Covers my truck insurance and then some. Plan around your hours, not the headline.</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 19</div>
+      </article>
+
+      <!-- 13 · Matt · 5★ · referral + screenshot -->
+      <article class="gcard more" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#B91C1C">MG</div><div class="g-who"><div class="g-name">Matt G.</div><div class="g-sub">3 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">2 weeks ago</span></div>
+        <p class="g-text">Do most of mine on my commute. Just my phone, nothing else needed. My rate's been $30/hr since week two.</p>
+        <div class="wa sand"><div class="wa-body">
+          <div class="wa-s"><span>does this work on my phone? I commute 40 min on transit each way</span><span class="wa-m"><span class="wa-t">1:15 PM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+          <div class="wa-r"><span>Yep! Most tasks work fine on your phone. Lots of people do them on transit 🚆</span><span class="wa-m"><span class="wa-t">1:19 PM</span></span></div>
+          <div class="wa-s"><span>perfect, trying it tomorrow morning 👍</span><span class="wa-m"><span class="wa-t">1:20 PM</span><svg class="tk b"><use href="#tk"/></svg></span></div>
+        </div></div>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 3</div>
+      </article>
+
+      <!-- 14 · Karen · 5★ · long -->
+      <article class="gcard more" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#0369A1">KD</div><div class="g-who"><div class="g-name">Karen D.</div><div class="g-sub"><span class="lg">Local Guide</span> · 15 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">3 months ago</span></div>
+        <p class="g-text">Government job, nine to five, and our rent went up $240 in July. Instead of waiting on a raise I picked up about 8 hours a week after supper, which works out to roughly $1,000 a month. All of it goes into the TFSA. First time in a year I feel ahead. Support's been friendly, so if you're nervous, just message them.</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 11</div>
+      </article>
+
+      <!-- 15 · Noah · 3★ -->
+      <article class="gcard more" data-s="3">
+        <div class="g-top"><div class="g-av" style="background:#475569">NA</div><div class="g-who"><div class="g-name">Noah A.</div><div class="g-sub">2 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★<span class="o">★★</span></span><span class="g-when">a month ago</span></div>
+        <p class="g-text">applying took like 2 min lol, super easy. only 3 stars cuz a few of my first tasks paid less than I figured. picked longer ones after and it got better. will update if it keeps up</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 5</div>
+      </article>
+
+      <!-- 16 · Rob · 5★ -->
+      <article class="gcard more" data-s="5">
+        <div class="g-top"><div class="g-av" style="background:#A16207">RM</div><div class="g-who"><div class="g-name">Rob M.</div><div class="g-sub">8 reviews</div></div><svg class="g-logo"><use href="#google"/></svg></div>
+        <div class="g-rate"><span class="g-stars">★★★★★</span><span class="g-when">a week ago</span></div>
+        <p class="g-text">Paid off my credit card in two months. Should've started sooner.</p>
+        <div class="g-foot"><svg viewBox="0 0 24 24"><path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 0 1 2 2.4l-1.2 7A2 2 0 0 1 17.8 20H7"/></svg> Helpful · 1</div>
+      </article>
+
+    </div>
+
+    <div class="more-wrap">
+      <button type="button" class="btn" id="moreBtn">Show more reviews</button>
+    </div>
+    <p class="g-note">Individual results vary. Hours, task availability and experience all affect what you earn.</p>
+  </div>
+</section>
+
+<!-- ═════ FIT ═════ -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="rv" style="max-width:640px">
+      <div class="eyebrow">Straight talk</div>
+      <h2 class="h2">Is this a good fit for you?</h2>
+      <p class="lede">We'd rather you know now, before you apply.</p>
+    </div>
+    <div class="fit-grid">
+      <div class="fit rv"><h3><span>✓</span>Probably a good fit if you…</h3>
+        <ul>
+          <li>want extra income around a job, kids, family or shifts</li>
+          <li>are happy to do short tasks from your phone or laptop</li>
+          <li>like choosing your own hours, week to week</li>
+          <li>are okay with income that moves from week to week</li>
+        </ul>
+      </div>
+      <div class="fit no rv d1"><h3><span>✕</span>Probably not for you if you…</h3>
+        <ul>
+          <li>need a guaranteed, fixed paycheque every month</li>
+          <li>are looking to replace your full-time income quickly</li>
+          <li>expect easy money without putting in any effort</li>
+          <li>aren't allowed to take side work under your employer's policy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════ ABOUT ═════ -->
+<section class="sec about">
+  <div class="wrap about-grid">
+    <div class="rv">
+      <div class="eyebrow light">Who we are</div>
+      <h2>Flexible work from home that fits around your real life.</h2>
+      <p>Role Findly is a Canadian team that helps working people earn extra income online, on their own terms. Around a nine-to-five, a rotating shift, family life or all three.</p>
+      <p>You're not looking for a miracle. You're looking for some breathing room, and a company that answers when you message them.</p>
+    </div>
+    <div class="vm rv d1">
+      <div><b>Vision</b><span>Extra income that fits around the life you already have.</span></div>
+      <div><b>Mission</b><span>Help working Canadians earn more, on their own time, with honest pay and honest expectations.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════ FAQ ═════ -->
+<section class="sec" id="faq">
+  <div class="wrap faq-grid">
+    <div class="faq-side rv">
+      <div class="eyebrow">FAQs</div>
+      <h2 class="h2">Things people ask before they get started.</h2>
+    </div>
+    <div class="rv d1">
+      <details><summary>When and how do I get paid?</summary><div class="ans">Your first payout is sent by Interac e-Transfer within 3 days of your first approved task. After that you're paid every Friday by Interac e-Transfer. There's no minimum payout and no holding period.</div></details>
+      <details><summary>Can I do this alongside a full-time job?</summary><div class="ans">That's how most people use it: evenings, lunch breaks and weekends. Check your employment contract or workplace policy first. Some employers require you to disclose outside work, and you should never do tasks on work time or work equipment.</div></details>
+      <details><summary>What about taxes?</summary><div class="ans">Income from tasks is generally considered self-employment or other income, so it should be reported on your tax return. We don't withhold tax from payouts. For anything specific to your situation, check with the CRA or a tax professional.</div></details>
+      <details><summary>Who can apply?</summary><div class="ans">Role Findly is open to Canadians who want flexible extra income from home. Setup is quick and simple: send your details, say hello to our team, and you can try your first task within a day or two. No résumé and no special equipment, just a phone or laptop.</div></details>
+      <details><summary>Is there a fee to apply or get started?</summary><div class="ans">No. Applying is free, onboarding is free, and tasks are free to start. You get paid for doing the work.</div></details>
+      <details><summary>How much time do I need?</summary><div class="ans">Most people start with 5–15 hours a week and adjust from there. There are no quotas or minimum hours. If you disappear for a week for a long weekend, a busy stretch at work or a family trip, nothing happens.</div></details>
+      <details><summary>Do you support French speakers?</summary><div class="ans">Oui. Our team can answer your questions in English or French over WhatsApp. Some task instructions are currently English-only.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ═════ FINAL CTA ═════ -->
+<section class="sec cta" id="apply">
+  <div class="wrap">
+    <div class="cta-box">
+      <div class="rv">
+        <div class="eyebrow light">Ready when you are</div>
+        <h2>See what a little extra could do for your <em>month.</em></h2>
+        <p>It takes two minutes. No fee, no pressure, and a real person to answer your questions.</p>
+      </div>
+      <div class="cta-form rv d1">
+        <h3>Apply Now</h3>
+        <p>No fee to apply · No commitment</p>
+        <form class="form" data-form="final" novalidate>
+          <div data-cddform="canada" data-origin="www.rolefindly.com"></div>
+<script src="https://www.chatfromforms.com/form-embed.js?v=0.1" defer></script>
+          <p class="fine">Your details stay private. We never sell or share them.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div>
+        <a class="logo" href="./">Role <i>Findly</i></a>
+        <p>Flexible work from home and remote online work for Canadians. First Interac e-Transfer within 3 days of your first approved task, no minimum payout. No upfront fees.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#why">Why it helps</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:contact@rolefindly.com">contact@rolefindly.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <p>© 2026 Role Findly. All rights reserved. Open to Canadian residents only. Income figures are estimates based on active earner data and are not a guarantee. Results vary with effort, availability and task volume. Reviews reflect individual experiences.</p>
+      <a href="privacy-policy/">Privacy Policy (PIPEDA &amp; CASL)</a>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/14165550142?text=Hi%20Role%20Findly%2C%20I%20saw%20your%20site%20and%20I%27d%20like%20to%20know%20more." target="_blank" rel="noopener" aria-label="Message us on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+  /* WhatsApp number (placeholder fictional 416-555-01xx). Replace with your real number, digits only, with country code. */
+  const WA_NUMBER = '14165550142';
+  const fmt = n => n.toLocaleString('en-CA');
+
+  /* ── Estimator ── */
+  const hrs = document.getElementById('hrs');
+  const covers = [
+    [1100, 'Roughly a month of <b>groceries for two</b>, covered.'],
+    [1800, 'Enough to absorb a <b>rent increase</b> and still have some left over.'],
+    [2600, 'Covers <b>car insurance and the winter heating bill</b> without a second thought.'],
+    [3400, 'A real second paycheque: think <b>RESP contributions plus a family trip</b>.'],
+    [Infinity, 'A serious second income. It takes <b>consistent hours</b>, but it changes the picture.']
+  ];
+  function calc() {
+    const h = +hrs.value;
+    const rate = +document.querySelector('input[name=lvl]:checked').value;
+    const mo = Math.round(h * 4.33 * rate / 10) * 10;
+    document.getElementById('hrsOut').textContent = h + ' hrs';
+    document.getElementById('mo').textContent = fmt(mo);
+    document.getElementById('covers').innerHTML = covers.find(c => mo < c[0])[1];
+    const pct = ((h - hrs.min) / (hrs.max - hrs.min)) * 100;
+    hrs.style.setProperty('--fill', pct + '%');
+    window.__estimate = { h, rate, mo };
+  }
+  hrs.addEventListener('input', calc);
+  document.querySelectorAll('input[name=lvl]').forEach(r => r.addEventListener('change', calc));
+  calc();
+
+  /* ── Phone formatting (Canada, 10 digits) ── */
+  function fmtPhone(v) {
+    let d = v.replace(/\D/g, '');
+    if (d.length === 11 && d[0] === '1') d = d.slice(1);
+    d = d.slice(0, 10);
+    if (d.length > 6) return `(${d.slice(0,3)}) ${d.slice(3,6)}-${d.slice(6)}`;
+    if (d.length > 3) return `(${d.slice(0,3)}) ${d.slice(3)}`;
+    if (d.length > 0) return `(${d}`;
+    return '';
+  }
+  document.querySelectorAll('input[type=tel]').forEach(el => el.addEventListener('input', () => { el.value = fmtPhone(el.value); }));
+
+  /* ── Forms → WhatsApp + thank-you ── */
+  document.querySelectorAll('form[data-form]').forEach(form => {
+    form.addEventListener('submit', ev => {
+      ev.preventDefault();
+      const f = form.elements;
+      const name = f['name'].value.trim();
+      const email = f['email'].value.trim();
+      const phone = f['phone'].value.trim();
+      const digits = phone.replace(/\D/g, '');
+      if (!name || !/^\S+@\S+\.\S+$/.test(email)) { (!name ? f['name'] : f['email']).focus(); alert('Please enter your name and a valid email.'); return; }
+      if (digits.length !== 10) { f['phone'].focus(); alert('Please enter a valid 10-digit WhatsApp number, for example (416) 555-0142.'); return; }
+      if (!f['consent'].checked) { f['consent'].focus(); alert('Please tick the box so we can contact you.'); return; }
+      const e = window.__estimate;
+      const est = `\nMy estimate: ${e.h} hrs/week, about $${fmt(e.mo)}/month`;
+      const msg = `Hi Role Findly! I'd like to know more about the work-from-home opportunity.\n\nName: ${name}\nEmail: ${email}\nWhatsApp number: ${phone}${est}`;
+      window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank');
+      window.location.href = 'thank-you/';
+    });
+  });
+
+  /* ── Review filters + show more ── */
+  const grid = document.getElementById('gGrid');
+  const cards = [...grid.querySelectorAll('.gcard')];
+  const moreBtn = document.getElementById('moreBtn');
+  let filter = 'all', open = false;
+  function renderReviews() {
+    cards.forEach(c => {
+      const s = +c.dataset.s;
+      const match = filter === 'all' || (filter === 'low' ? s <= 3 : s === +filter);
+      c.hidden = !match;
+      c.classList.toggle('show', open || filter !== 'all');
+    });
+    moreBtn.parentElement.style.display = filter === 'all' ? '' : 'none';
+    moreBtn.textContent = open ? 'Show fewer reviews' : 'Show more reviews';
+  }
+  document.querySelectorAll('.chip').forEach(ch => ch.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', 'false'));
+    ch.setAttribute('aria-pressed', 'true');
+    filter = ch.dataset.f; renderReviews();
+  }));
+  moreBtn.addEventListener('click', () => { open = !open; renderReviews(); if (!open) grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+  renderReviews();
+
+  /* ── Scroll reveal ── */
+  const rvObs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); rvObs.unobserve(e.target); } }), { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.rv').forEach(el => rvObs.observe(el));
+
+  /* ── Counters ── */
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function countUp(el) {
+    const to = parseFloat(el.dataset.to), dec = +(el.dataset.dec || 0);
+    const show = v => el.textContent = dec ? v.toFixed(dec) : Math.floor(v).toLocaleString('en-CA');
+    if (reduce) { show(to); return; }
+    const t0 = performance.now(), dur = 1600;
+    (function step(now) {
+      const p = Math.min((now - t0) / dur, 1);
+      show((1 - Math.pow(1 - p, 4)) * to);
+      if (p < 1) requestAnimationFrame(step); else show(to);
+    })(t0);
+  }
+  const cObs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { countUp(e.target); cObs.unobserve(e.target); } }), { threshold: 0.6 });
+  document.querySelectorAll('.count').forEach(el => cObs.observe(el));
+
+</script>
+</body>
+</html>
